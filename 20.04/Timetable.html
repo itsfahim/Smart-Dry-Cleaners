@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Timetable</title>
+<style>
+	
+	@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}</style>
+<link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+	</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Welcome.php">Home</a>
+  <a href="shoppingHomepage.php">Clothes</a>
+  <a href="update.php">Update</a>
+  <a href="talkToTailor.php">Talk to Us</a>
+  <a href="Stores.html">Location</a>
+  <a href="Timetable.html">Timetable</a>
+  <a href="FAQ's.html">FAQ</a>
+  
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+<div class="container">
+  <header>
+  
+  <button onclick="openNav().style.display='block'" style="width: auto">&#9776;</button>
+
+<div class="primary_header">
+      <h1 class="title">Smart Dry Cleaners</h1>
+    </div></header>
+	  </div>
+	  
+	  <div class="underPageTitle">
+	  	<p>This is our opening and closing timetable. Subject to change.</p>
+	  </div>
+	  
+	
+
+<div class="storeCol">
+	  <div class="row">
+	  	
+	  	<div class="columns">
+	  	<p>Camden</p>	
+	  		<div class="storeDetails">	
+	  		<p>104a Parkway</p>
+	  		<p>Camden</p>
+	  		<p>London</p>
+	  		<p>NW1 7AN</p>	  		
+	  		</div>
+	  	</div>
+	  	
+	  	<div class="columns">
+	  		<p>Swiss Cottage</p>
+	  		<div class="storeDetails">	
+	  		<p>23 Northway Parade</p>
+	  		<p>Swiss Cottage</p>
+	  		<p>London</p>
+	  		<p>NW3 5DN</p>	  		
+	  		</div>
+	  	</div>
+	  	
+	  	<div class="columns">
+	  		<p>Stratford</p>
+	  			<div class="storeDetails">	
+	  			<p>123 fake street</p>
+	  			<p>Stratford</p>
+	  			<p>London</p>
+	  			<p>e13 e13</p>	  		
+	  			</div>
+	  	</div>
+	  	
+	  	<div class="columns">
+	  		<p>Timetable</p>
+	  		<div class="storeDetails">	
+	  		<p>Mondon: 		8-6</p>
+	  		<p>Tuesday: 8-6</p>
+	  		<p>Wednesday: 9-5</p>
+	  		<p>Thursday: 8-6</p>
+	  		<p>Friday: 8-6</p>
+	  		<p>Saturday: 10-4</p>
+	  		<p>Sunday: <b>Closed</b></p>	  		
+	  		</div>
+	  	</div>
+	  </div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign Up</title>
+
+<link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+	</head>
+<body>
+
+
+<div class="container">
+  <header>
+<div class="primary_header">
+      <h1 class="title">Smart Dry Cleaners</h1>
+    </div></header>
+    
+	</div>
+	
+    <p></p>
+    
+    <div class="commentSection">	
+    <p>
+		Welcome to the <b>Smart Dry Cleaners</b> web based application. Our job is to give you a premium dry cleaning serivce straight to your doorstep. Have a look around and when you are ready head over to the <b>Clothes</b> section to send a van straight to your address to pick up your clothes. Fill in the form below and then <b>login</b> to make your way into the website. 
+		</p>	
+    <br>
+		 <form action="signUpForm.php" method="POST">
+   <label> Username: <br>
+    <input type="text" name="username" placeholder="john123" style="width: 35%" required>
+   </label>
+   <br>
+    <label> Password: <br>
+    <input type="password" name="password" placeholder="**************" style="width: 35%" required>
+   </label>
+   <br>
+   <label> Email: <br>
+    <input type="email" name="email" placeholder="john@john.com" style="width: 35%" required>
+   </label>
+   <br><br>
+   <label> Door Number or House Name : <br>
+    <input type="text" name="line1" placeholder="123/Morris House" style="width: 100%" required>
+   </label>
+   <br><br>
+   <label> Street Name: <br>
+    <input type="text" name="line2" placeholder="Fake Street" style="width: 100%" required>
+   </label>
+   <label> Post Code: <br>
+    <input type="text" name="postcode" placeholder="AB1CD2" style="width: 35%" required>
+   </label>
+   <br><br>
+   <input type="submit" name="submit" value="Enter" style="width:120px " class="Submit">
+  </form>
+  </div>
+  
+  <div class="underPageTitle">
+	  <p>If you already have a login then <a href="login.php"><b>click here</b></a>.</p> 
+  </div>
+	
+</body>
+</html>
+
