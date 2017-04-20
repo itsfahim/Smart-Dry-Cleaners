@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Dry Cleaners</title>
+<style>
+	
+	@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}</style>
+<link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+	</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="HomePage.html">Home</a>
+  <a href="Shirts.html">Clothes</a>
+  <a href="FAQ's.html">FAQ</a>
+  <a href="Stores.html">Contact/Location</a>
+  <a href="SignUp.html">Sign Up</a>
+  <a href="talkToTailor.html">Ask Us</a>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+<div class="container">
+  <header>
+  
+  <button onclick="openNav().style.display='block'" style="width: auto">&#9776;</button>
+
+<div class="primary_header">
+      <h1 class="title"><a href="HomePage.html">Smart Dry Cleaners</a> </h1>
+    </div></header>
+	  
+  <section>
+    <div class="left_article">
+      <h3>Smart Dry Cleaners</h3>
+      <p>We take pride in our work and we want you to take pride in our work too. We have many ways for you to keep track of your cleaning using our update system which will show you when your clothes is ready to be picked up. For more information head to our US page which will have our FAQ's.</p>
+</div>
+  </section>
+  <div class="row">
+    <div class="columns">
+      <p class="thumbnail_align"> <img src="images/bkg_06.jpg" alt="" class="thumbnail"/> </p>
+      <h4>SHIRTS</h4>
+      <p>A shirt goes nicely with all articles of clothing. Need a shirt washed and pressed? Just a press? Going on holiday and need it folded? We'll get right on it.</p>
+    </div>
+    <div class="columns">
+      <p class="thumbnail_align"> <img src="images/bkg_06.jpg" alt="" class="thumbnail"/> </p>
+      <h4>SUITS</h4>
+      <p>A suits is much needed by everyone. From weddings to interviews. We'll have your suit ready to walk into the boardroom and having looking as sharp as it did when you first got it. </p>
+    </div>
+    <div class="columns">
+      <p class="thumbnail_align"> <img src="images/bkg_06.jpg" alt="" class="thumbnail"/> </p>
+      <h4>TROUSERS</h4>
+      <p>We all like our trousers differently. If you like it with a crease or without. Hung or folded. We've got it all set up for you. Just pop it into the basket and off we go. </p>
+    </div>
+    <div class="columns">
+      <p class="thumbnail_align"> <img src="images/bkg_06.jpg" alt="" class="thumbnail"/> </p>
+      <h4>LAUNDRY</h4>
+      <p>Don't have time to for the laundry? Is it piling up? We'll get that sorted out for you no matter what the size. We can have it all set up for you by the time you get home. </p>
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>

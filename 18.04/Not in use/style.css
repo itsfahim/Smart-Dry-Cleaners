@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+CSS CODE:
+body{
+	font-family: 'Comfortaa', cursive;
+}
+
+h1{
+	font-family: 'Comfortaa', cursive;
+ color: red;
+}
+
+.Input{
+	font-family: 'Comfortaa', cursive;
+ border: 1px solid orange;
+ width: 300px;
+}
+
+.Submit{
+	font-family: 'Comfortaa', cursive;
+ border: 1px solid orange;
+ width: 300px;
+}

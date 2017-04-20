@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Dry Cleaners</title>
+<style>
+	
+	@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}</style>
+<link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+	</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Welcome.php">Home</a>
+  <a href="Clothes.html">Clothes</a>
+  <a href="updateform.php">Update</a>
+  <a href="talkToTailor.php">Talk to Us</a>
+  <a href="Stores.html">Location</a>
+  <a href="Timetable.html">Timetable</a>
+  <a href="FAQ's.html">FAQ</a>
+  
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+<div class="container">
+  <header>
+  
+  <button onclick="openNav().style.display='block'" style="width: auto">&#9776;</button>
+
+<div class="primary_header">
+      <h1 class="title">Smart Dry Cleaners</h1>
+    </div></header>
+	  </div>
+	  
+	  
+<div class="FAQlist">  
+	  <section>
+  <p></p>
+  	<button class="accordion">Where to find us?</button>
+<div class="panel">
+  <p>We have a dedicated page for the locations of our different branches. Head over to the 'Location' section on the navigation pane.</p>
+</div>
+
+<button class="accordion">When are you open?</button>
+<div class="panel">
+  <p>All three shops are open 6 days a week, Monday-Saturday. Head over to the 'Timetable' section for more details.</p>
+</div>
+
+<button class="accordion">I have a question to ask..</button>
+<div class="panel">
+  <p>If you have a question to ask and cannot call in then then leave a message for us in the <b>Talk to Us</b> section and we'll try our best to get back to you.</p>
+		  </div>
+  
+	<button class="accordion">Why do i have to log in?</button>
+<div class="panel">
+  <p>We can only offer our services for those who are signed up to the service.</p>
+		  </div>
+		  
+	<button class="accordion">Can i check the status of my clothes?</button>
+<div class="panel">
+  <p>You certainly can. Click on the 'Update' section on the navigation pane.</p>
+		  </div>
+		  
+		  <button class="accordion">What is stage 0?</button>
+<div class="panel">
+  <p>This stage is when the transaction is being processed. Once it is we will move onto stage 1.</p>
+		  </div>
+		   
+		     <button class="accordion">What do you mean by processed?</button>
+<div class="panel">
+  <p>Different clothes have different ways of being dry cleaned. When we say process we are dealing with the clothes in the best way possible for a high customer satisfaction.</p>
+		  </div>
+		  
+  
+  <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
+</script>
+  </section>
+  </div>	
+</body>
+</html>
